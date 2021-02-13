@@ -13,13 +13,7 @@ public class Text {
         return (int) (Math.floor((Math.random()*(max-min))+min));
     }
 
-    public Text(int size) {
-        text = new char[size];
-    }
-
-
-
-    public void display() {
-
+    public char generateLetter() {
+        return (char) ((Math.random()*(90-65))+65);
     }
 }
